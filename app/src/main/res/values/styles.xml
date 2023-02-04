@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="launch_screen">
+        <item name="android:windowBackground">@drawable/zastafka</item>
+    </style>
+</resources>

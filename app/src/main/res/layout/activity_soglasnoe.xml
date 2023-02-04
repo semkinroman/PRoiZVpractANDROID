@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/zastafka"
+    tools:context=".Soglasnoe">
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="300dp"
+        android:layout_height="380dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="236dp"
+        android:contentDescription="@string/glasimage"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/abc" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="62dp"
+        android:layout_height="258dp"
+        android:layout_marginBottom="84dp"
+        android:contentDescription=""
+        android:onClick="backSchetchik1"
+        android:text="@string/glasback"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="62dp"
+        android:layout_height="258dp"
+        android:layout_marginBottom="84dp"
+        android:contentDescription=""
+        android:onClick="sschetchik1"
+        android:text="@string/glasforward"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.957"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="258dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="28dp"
+        android:onClick="backsoglasnoe1"
+        android:text="@string/glasmenu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
